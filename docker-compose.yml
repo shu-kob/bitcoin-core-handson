@@ -2,12 +2,12 @@ version: "3.5"
 
 services:
   bitcoind:
-    image: bitcoin-signet:v25.0
-    container_name: bitcoin-signet
+    image: bitcoin-core:v25.0
+    container_name: bitcoin-core
     volumes:
       - ~/.bitcoin:/root/.bitcoin
     restart: on-failure
     stop_grace_period: 1m
     ports:
-      - "38882:38882"
-      - "38883:38883"
+      - "18443:18443"
+      - "18444:18444"
