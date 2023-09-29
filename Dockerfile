@@ -31,6 +31,6 @@ ENV BITCOIN_DATA=/root/.bitcoin
 
 RUN mkdir -p ${BITCOIN_DATA}
 
-EXPOSE 38882 38883
+EXPOSE 18443 18444
 
-CMD ["bitcoind", "-txindex", "-signet"]
+CMD ["bitcoind", "-txindex", "-regtest"]
