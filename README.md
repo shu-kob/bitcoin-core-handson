@@ -8,6 +8,15 @@ OSC2023 Online/Fallの資料になります。
 
 - https://cryptocurrency.connpass.com/
 
+## 変更点
+
+SignetというTestnetの一つを使用する予定でしたが、Regtestを使用します。
+
+昔、[OSCでSignetを使った同様のハンズオン](https://qiita.com/shu-kob/items/488b291ce40fbc398c3c)を行い、<br>
+その際は大丈夫だったのですが、Signetのブロックチェーンサイズが大きくなり、同期に時間がかかるようになりました、
+
+そのため、スタンドアロンで使用できるRegtestを使用します。
+
 ## Dockerビルド
 
 ```bash
@@ -220,3 +229,7 @@ bcli decoderawtransaction 02000000000101e08b48b477993e1262369f6be5398085ab0796d3
 ## 続き
 
 マイニングしたり、送金したり、トランザクションの中身を見てみましょう。
+
+```bash
+bcli help
+```
