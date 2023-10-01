@@ -1,12 +1,13 @@
 # bitcoin-core-handson
 
-OSC2023 Online/Fallの資料になります。
+2023年9月30日(土)に行われたOSC2023 Online/Fallの資料になります。
 
 - https://event.ospn.jp/osc2023-online-fall/session/1140877
 
 ## コミュニティの紹介
 
-- https://cryptocurrency.connpass.com/
+- 日本暗号通貨ユーザ会
+  - https://cryptocurrency.connpass.com/
 
 ## 変更点
 
