@@ -3,6 +3,7 @@
 2023年9月30日(土)に行われたOSC2023 Online/Fallの資料になります。
 
 - セミナー情報: https://event.ospn.jp/osc2023-online-fall/session/1140877
+- アーカイブ動画: https://youtu.be/u8xNeqCMMm4
 
 ## コミュニティの紹介
 
